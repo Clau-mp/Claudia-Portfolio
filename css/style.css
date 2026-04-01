@@ -253,5 +253,42 @@ justify-content: center;
     color: white;
     font-size: 30px;
     font-family: "Arcadeclassic-regular";
+}
 
+.watch-my-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.watch-my-work >h1 {
+    align-items: center;
+    align-content:center;
+    gap: 20px;
+    color: #FF58A3;
+    font-family: "CHOXR";
+    font-size: 200px ;
+    font-weight: 8;
+    text-align: center;
+    margin: 80px;
+    padding: 0;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.watch-my-work > h1 > span {
+    color: white;
+}
+
+.watch-my-work > a {
+    color: white;
+    font-family:"Arcadeclassic-regular" ;
+    font-size: 50px;
+    text-decoration: none;
+    margin-bottom: 80px;
+    align-items: center;
+    border: 3px #FF58A3 solid;
+    padding: 10px 60px;
+    border-radius: 30px;
 }
