@@ -2,6 +2,11 @@
     font-family:CHOXR;
     src: url(../fonts/CHOXR.ttf);
 }
+
+@font-face {
+    font-family: Arcadeclassic-regular;
+    src: url(../fonts/arcadeclassic.regular.ttf);
+}
 *{
     margin:0;
     padding:0;
@@ -70,17 +75,16 @@ justify-content: center;
 }
 
 #about-me {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 20px 30px;
+ display: flex;
+ flex-direction: column;
+ padding: 20px 30px;
 }
 
 .about-me-top{
     display: flex;
     align-items: flex-start;
-    gap: 40px;
-    margin-top: 40px;
+    gap: 60px;
+    margin-top: 50px;
 }
 .portfolio-img {
     background-color: rgba(255, 88, 163, 0.594);
@@ -107,10 +111,9 @@ justify-content: center;
 }
 .about-me-info > p {
     font-family: "Archivo Black", sans-serif;
-    font-weight: 100;
     font-size: 20px;
-    margin-bottom: 40px;
-    margin-right: 80px;
+    margin-bottom: 25px;
+    margin-right: 75px;
     color: white;
 }
 .about-me-info > a {
@@ -119,14 +122,129 @@ justify-content: center;
     border-radius: 100px;
     background-color: #FF58A3;
     font-family:"CHOXR" ;
-    padding: 0 40px;
-    margin-top: 20px;
+    padding: 0 50px;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;  
+    gap: 10px;
+}
+
+.about-me-bottom{
+    display: flex;
+    align-items: flex-start;
+    gap:  10px 40px;
+    margin-top: 35px;
+}
+.software{
+   gap:0 20px;
+   padding: 20px;
+   margin-bottom: 30px;
+   margin-right: 130px;
+   margin-left: 10px;
+
+}
+.software > span{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    color: white;
+    font-family:"Arcadeclassic-regular";
+    font-size: 30px;
+    border-radius: 40px ;
+    border: 2px #FF58A3 solid;
+    height: auto;
+    margin-bottom: 30px;
     width: fit-content;
-    
+    padding: 10px 30px
+
+}
+
+.software > ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0%;
+    margin: 0%;
+   align-items: center;
+   justify-content: left;
+}
+.software > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.software > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    border: 2px #FF58A3 solid;
+    border-radius: 20%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 0%;
+    background-color: white;
+}
+.software > ul > li:nth-child(5) > a {
+    background-color: black;
+}
+.software > ul > li:nth-child(5) > a > i{
+    font-size: 30px;
+    color: white;
+}
+.software > ul > li:last-child > a{
+    background-color: black;
+}
+.software > ul > li:last-child > a > i{
+    font-size: 35px;
+    color: white;
+}
+
+.languages{
+   gap:0 20px;
+   padding: 20px;
+   margin-bottom: 30px;
+   margin-right: 50px;
+   margin-left: 150px;
+}
+
+.languages > span {
+   display: flex;
+    justify-content: left;
+    align-items:center;
+    color: white;
+    font-family:"Arcadeclassic-regular";
+    font-size: 30px;
+    border-radius: 40px ;
+    border: 2px #FF58A3 solid;
+    height: auto;
+    margin-bottom: 30px;
+    width: fit-content;
+    padding: 10px 30px  
+}
+
+.languages > ul {
+    list-style: none;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+   align-items: flex-start;
+   justify-content: left;
+   flex-direction: column;
+}
+
+.languages > ul > li {
+    color: white;
+    font-size: 30px;
+    font-family: "Arcadeclassic-regular";
+
 }
