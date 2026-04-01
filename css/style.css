@@ -1,0 +1,132 @@
+@font-face {
+    font-family:CHOXR;
+    src: url(../fonts/CHOXR.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color:black;
+    scroll-behavior: smooth;
+}
+
+.wrapped {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:0 25px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    
+}
+nav > a > img {
+    width:150px;
+    height: auto;
+    display: flex;
+}
+
+ .bottoms-menu > ul {
+    list-style: none;
+    display: flex;
+    gap: 24px ;
+ }
+ .bottoms-menu > ul > li > a {
+    text-decoration: none;
+    color:#FF58A3;
+    font-family:"Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+ }
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 140px 10px;
+    align-items: center;
+    justify-content: center;
+}
+ header > img {
+    width: 92%;
+    height: auto;
+    display: flex;
+ }
+
+.divider{
+background-color: #FF58A3;
+color: black;
+font-family: "CHOXR";
+font-size: 50px;
+display: flex;
+align-items: center;
+align-content:center;
+justify-content: center;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 30px;
+}
+
+.about-me-top{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+.portfolio-img {
+    background-color: rgba(255, 88, 163, 0.594);
+    border: 3px #FF58A3 solid;
+    border-radius: 10%;
+    height: fit-content ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-width: 400px 400px;
+   min-width: none;
+}
+.portfolio-img > img{
+    overflow: hidden;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.about-me-info > h1 {
+    font-family: "CHOXR";
+    font-size: 70px;
+    color: #FF58A3;
+    font-weight: 8;
+}
+.about-me-info > p {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+    color: white;
+}
+.about-me-info > a {
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+    background-color: #FF58A3;
+    font-family:"CHOXR" ;
+    padding: 0 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    
+}
