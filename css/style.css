@@ -7,6 +7,11 @@
     font-family: Arcadeclassic-regular;
     src: url(../fonts/arcadeclassic.regular.ttf);
 }
+
+@font-face {
+    font-family: Retrogression-Regular;
+    src: url(../fonts/Retrogression-Regular.ttf);
+}
 *{
     margin:0;
     padding:0;
@@ -43,19 +48,19 @@ nav > a > img {
     display: flex;
 }
 
- .bottoms-menu > ul {
+.bottoms-menu > ul {
     list-style: none;
     display: flex;
     gap: 24px ;
  }
- .bottoms-menu > ul > li > a {
+.bottoms-menu > ul > li > a {
     text-decoration: none;
     color:#FF58A3;
     font-family:"Archivo Black", sans-serif;
     font-weight: 400;
     font-size: 25px;
  }
-header{
+.header-home{
     display: flex;
     width: 100%;
     height: auto;
@@ -64,7 +69,7 @@ header{
     justify-content: center;
     margin-top: 120px;
 }
- header > img {
+.header-home > img {
     width: 92%;
     height: auto;
     display: flex;
@@ -255,14 +260,15 @@ justify-content: center;
     font-family: "Arcadeclassic-regular";
 }
 
-.watch-my-work{
+#watch-my-work{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
-.watch-my-work >h1 {
+#watch-my-work >h1 {
     align-items: center;
     align-content:center;
     gap: 20px;
@@ -277,11 +283,11 @@ justify-content: center;
     margin-bottom: 30px;
 }
 
-.watch-my-work > h1 > span {
+#watch-my-work > h1 > span {
     color: white;
 }
 
-.watch-my-work > a {
+#watch-my-work > a {
     color: white;
     font-family:"Arcadeclassic-regular" ;
     font-size: 50px;
@@ -292,3 +298,63 @@ justify-content: center;
     padding: 10px 60px;
     border-radius: 30px;
 }
+
+#are-you-interested-now{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#are-you-interested-now > h1{
+    font-size: 200px;
+    font-family: "CHOXR";
+    padding: 0;
+    font-weight: 8;
+    line-height: 1; 
+}
+
+#are-you-interested-now > h1:first-of-type{
+    color: white;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+#are-you-interested-now > h1:first-of-type > span{
+    font-family: "Retrogression-Regular";
+    color: #FF58A3;
+}
+#are-you-interested-now > h1:last-of-type{
+    color: #FF58A3;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    margin-left: 320px;
+}
+#are-you-interested-now > a{
+    color:#FF58A3;
+    font-family:"Arcadeclassic-regular" ;
+    font-size: 50px;
+    text-decoration: none;
+    margin-bottom: 80px;
+    align-items: center;
+    border: 3px white solid;
+    padding: 10px 60px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+}
+footer > p{
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#FF58A3;
+    font-family: "Archivo Black", sans-serif ;
+    font-size: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+
