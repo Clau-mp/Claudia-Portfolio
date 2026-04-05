@@ -59,6 +59,12 @@ nav > a > img {
     font-family:"Archivo Black", sans-serif;
     font-weight: 400;
     font-size: 25px;
+    transition: 0,5s;
+ }
+ .bottoms-menu > ul > li > a:hover{
+    color:#ff1d82;
+    font-size: 27px;
+
  }
 .header-home{
     display: flex;
@@ -144,6 +150,11 @@ justify-content: center;
     justify-content: center;
     width: fit-content;  
     gap: 10px;
+    transition: 0,5s;
+}
+.about-me-info > a:hover{
+    background-color: #ff1d82;
+    color:white;
 }
 
 .about-me-bottom{
@@ -297,12 +308,47 @@ justify-content: center;
     border: 3px #FF58A3 solid;
     padding: 10px 60px;
     border-radius: 30px;
+    transition: 0,8s;
+}
+#watch-my-work > a:hover{
+    margin-top: 20px;
+    color:#FF58A3;
+    border: 3px #ff1d82 solid;
+}
+#watch-my-gallery{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   
+}
+#watch-my-gallery > video{
+    width: 100%;
+    position: relative;
 }
 
+#watch-my-gallery > a{
+    position: absolute;
+    font-size: 100px;
+    font-family: "CHOXR";
+    color: #FF58A3;
+    background-color: black;
+    border-radius: 80px;
+    text-decoration: none;
+    padding: 10px 90px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.8s
+
+}
+#watch-my-gallery:hover > a{
+    opacity: 1;
+}
 #are-you-interested-now{
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 #are-you-interested-now > h1{
