@@ -390,6 +390,11 @@ justify-content: center;
     align-self: center;
 
 }
+#are-you-interested-now > a:hover{
+    margin-top: 20px;
+    color:white;
+    border: 3px #ff1d82 solid;
+}
 footer > p{
     margin-top: 150px;
     margin-bottom: 60px;
