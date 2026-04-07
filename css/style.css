@@ -621,3 +621,34 @@ footer > p{
     color: #FF58A3;
     margin-top: 15px; 
 }
+
+#proyect-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+#proyect-presentation > h1{
+    font-family:"CHOXR" ;
+    font-size: 150px;
+    color: #FF58A3;
+    text-align: center;
+    font-weight: 100;
+    box-sizing: border-box
+}
+#proyect-presentation > img{
+    max-width: 1000px;
+   min-width: none;
+   border-radius: 30px;
+   margin: 20px 0;
+}
+#proyect-presentation > p{
+    text-align: left;
+    color: white;
+    font-family:"Archivo Black", sans-serif ;
+    font-size: 22px;
+    padding-left: 230px;
+    padding-right: 230px;
+    margin: 22px 0;
+}
