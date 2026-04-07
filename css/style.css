@@ -409,6 +409,8 @@ footer > p{
     display: flex;
 }
 
+/* WORK */
+
 #work-section{
     display: flex;
     flex-direction: column;
@@ -517,6 +519,41 @@ footer > p{
 .show-project:hover ~h2 {
     color: #ff1d82;
 }
+
+/* PROJECT PRESENTATION */
+
+#proyect-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+#proyect-presentation > h1{
+    font-family:"CHOXR" ;
+    font-size: 150px;
+    color: #FF58A3;
+    text-align: center;
+    font-weight: 100;
+    box-sizing: border-box
+}
+#proyect-presentation > img{
+    max-width: 1000px;
+   min-width: none;
+   border-radius: 30px;
+   margin: 20px 0;
+}
+#proyect-presentation > p{
+    text-align: left;
+    color: white;
+    font-family:"Archivo Black", sans-serif ;
+    font-size: 22px;
+    padding-left: 230px;
+    padding-right: 230px;
+    margin: 22px 0;
+}
+/* CONTACT */
+
 #contact-information{
     margin-top: 200px;
 }
@@ -622,33 +659,27 @@ footer > p{
     margin-top: 15px; 
 }
 
-#proyect-presentation{
+/* GALLERY */
+
+#gallery {
+    padding: 50px 0 40px 0;
+    margin-top: 100px;
+}
+#gallery > ul{
+    list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
     align-items: center;
+    justify-content: center
+}
+#gallery > ul > li{
+    flex: 0,9%;
     justify-content: center;
-    margin-top:100px;
 }
-#proyect-presentation > h1{
-    font-family:"CHOXR" ;
-    font-size: 150px;
-    color: #FF58A3;
-    text-align: center;
-    font-weight: 100;
-    box-sizing: border-box
+#gallery > ul > li >img{
+    max-width: 300px;
+    min-width: none;
+    border-radius: 20px;
 }
-#proyect-presentation > img{
-    max-width: 1000px;
-   min-width: none;
-   border-radius: 30px;
-   margin: 20px 0;
-}
-#proyect-presentation > p{
-    text-align: left;
-    color: white;
-    font-family:"Archivo Black", sans-serif ;
-    font-size: 22px;
-    padding-left: 230px;
-    padding-right: 230px;
-    margin: 22px 0;
-}
+
